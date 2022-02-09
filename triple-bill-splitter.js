@@ -26,12 +26,12 @@ if (Person1 === Person2 && Person1 === Person3) {
     console.log("Person 3 owes Person 1 " + result1 + " dollars and Person 3 owes Person 2 " + result2 + " dollars.");
 } else if ((Person1 >= total/3) && (Person3 >= total/3) && (Person2 < total/3)) {
     let result1 = (Person1 - (total/3))
-    let result2 = (Person3 - (total/3))
-    console.log("Person 2 owes Person 1 " + result1 + " dollars and Person 2 owes Person 3 " + result2 + " dollars.");
+    let result3 = (Person3 - (total/3))
+    console.log("Person 2 owes Person 1 " + result1 + " dollars and Person 2 owes Person 3 " + result3 + " dollars.");
 } else if ((Person2 >= total/3) && (Person3 >= total/3) && (Person1 < total/3)) {
-    let result1 = (Person2 - (total/3))
-    let result2 = (Person3 - (total/3))
-    console.log("Person 1 owes Person 2 " + result1 + " dollars and Person 1 owes Person 3 " + result2 + " dollars.");
+    let result2 = (Person2 - (total/3))
+    let result3 = (Person3 - (total/3))
+    console.log("Person 1 owes Person 2 " + result2 + " dollars and Person 1 owes Person 3 " + result3 + " dollars.");
     
 }
 
